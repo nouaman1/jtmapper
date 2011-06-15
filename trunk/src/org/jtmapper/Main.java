@@ -1,5 +1,9 @@
+package org.jtmapper;
 import java.io.File;
 import java.io.IOException;
+
+import org.jtmapper.terraria.TerrariaWorld;
+import org.jtmapper.terraria.TileTypeDefinitions;
 
 public class Main {
 	public static void main(String[] args) throws IOException {

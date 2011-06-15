@@ -1,3 +1,4 @@
+package org.jtmapper.terraria;
 import java.awt.Graphics;
 import java.awt.image.BufferedImage;
 import java.io.File;
@@ -6,6 +7,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 import javax.imageio.ImageIO;
+
+import org.jterramapper.io.Reader;
 
 public class TerrariaWorld {
 	public TerrariaHeader header;

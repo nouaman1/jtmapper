@@ -1,3 +1,4 @@
+package org.jtmapper.terraria;
 import java.awt.Point;
 import java.awt.image.BufferedImage;
 
@@ -21,7 +22,7 @@ public class NPC {
 	public BufferedImage getHeadIMG() {
 		try {
 			return ImageIO.read(getClass().getResource(
-					"/images/" + name + ".png"));
+					"/org/jtmapper/assets/images/" + name + ".png"));
 		} catch (Exception e) {
 			return null;
 		}

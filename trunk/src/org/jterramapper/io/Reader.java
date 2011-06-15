@@ -1,8 +1,19 @@
+package org.jterramapper.io;
+
 import java.awt.Dimension;
 import java.awt.Point;
 import java.awt.Rectangle;
 import java.io.File;
 import java.io.IOException;
+
+import org.jtmapper.terraria.Chest;
+import org.jtmapper.terraria.Constants;
+import org.jtmapper.terraria.Item;
+import org.jtmapper.terraria.NPC;
+import org.jtmapper.terraria.Sign;
+import org.jtmapper.terraria.TerrariaHeader;
+import org.jtmapper.terraria.TileType;
+import org.jtmapper.terraria.TileTypeDefinitions;
 
 public class Reader {
 	private File f;

@@ -1,3 +1,4 @@
+package com.compaq;
 // Copyright (c) 2003 Compaq Corporation.  All rights reserved.
 // Portions Copyright (c) 2003 Microsoft Corporation.  All rights reserved.
 // Last modified on Mon Jun 19 14:28:04 PDT 2000 by yuanyu

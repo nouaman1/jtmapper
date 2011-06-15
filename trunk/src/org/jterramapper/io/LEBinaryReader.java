@@ -1,6 +1,9 @@
+package org.jterramapper.io;
 import java.io.File;
 import java.io.IOException;
 import java.io.RandomAccessFile;
+
+import com.compaq.BufferedRandomAccessFile;
 
 public class LEBinaryReader {
 	private RandomAccessFile raf = null;

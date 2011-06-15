@@ -1,3 +1,4 @@
+package org.jtmapper.terraria;
 
 public class Item {
 	public String name;
