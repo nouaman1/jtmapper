@@ -1,3 +1,4 @@
+package org.jtmapper.terraria;
 import java.awt.Point;
 
 public class Sign {
