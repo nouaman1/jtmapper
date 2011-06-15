@@ -10,7 +10,7 @@ public class LEBinaryReader {
 	}
 
 	public LEBinaryReader(File file) throws IOException {
-		raf = new BufferedRaf(file, "r");
+		raf = new BufferedRandomAccessFile(file, "r");
 	}
 
 	public void close() throws IOException {
